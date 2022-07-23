@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.ibm.mq.allclient-9.3.0.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/mq/com.ibm.mq.allclient/9.3.0.0/com.ibm.mq.allclient-9.3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibm/mq/com.ibm.mq.allclient/9.3.0.0/com.ibm.mq.allclient-9.3.0.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>
