@@ -60,7 +60,7 @@ public class HandleArgs {
             cmd = parser.parse(options, args);
         } catch (ParseException e) {
             System.out.println(e.getMessage());
-            formatter.printHelp("IBMMQTriggerBrowser saves n messages " +
+            formatter.printHelp("IBMMQTriggerBrowse saves n messages " +
                     "to the file from the monitored\nqueue when the queue's depth is reached.\n Then the application closes.\n\n", options);
 
             System.exit(1);

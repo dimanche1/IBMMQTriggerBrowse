@@ -1,0 +1,15 @@
+IBMMQTriggerBrowse saves n messages to the file from the monitored queue when the queue's depth is reached.
+Then the application closes.
+
+required options: h, p, c, m, l, pass, qn, ce, qd, bn
+
+  -bn,--browse-n <arg>      browse n messages
+  -c,--channel <arg>        channel
+  -ce,--check-each <arg>    check queue's depth each n milliseconds
+  -h,--host <arg>           host
+  -l,--login <arg>          login
+  -m,--manager <arg>        MQ manager name
+  -p,--port <arg>           port
+  -pass,--password <arg>    password
+  -qd,--queue-depth <arg>   queue depth to trigger
+  -qn,--queue-name <arg>    name of the queue to monitor
