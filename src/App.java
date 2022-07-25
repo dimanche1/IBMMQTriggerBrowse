@@ -30,7 +30,7 @@ public class App {
             System.out.println("Connected to MQ manager " + handleArgs.getManager());
 
             qm.accessQueue(handleArgs.getQueueName());
-            System.out.println("Connected to queue " + handleArgs.getManager());
+            System.out.println("Connected to queue " + handleArgs.getQueueName());
 
         } catch (MQException e) {
             System.out.println("MQ error: Completion code " + e.completionCode +

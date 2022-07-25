@@ -42,7 +42,7 @@ public class TriggerTask implements Runnable{
 //        }
 
         try {
-            System.out.println(qmngr.getQueueDepth());
+//            System.out.println(qmngr.getQueueDepth());
             if (qmngr.getQueueDepth() >= queueDepthToTrigger) {
                 browseNMessages(qmngr.getQueue());
             }
