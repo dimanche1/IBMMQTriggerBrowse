@@ -2,6 +2,8 @@
   <library name="com.ibm.mq.allclient-9.3.0.0">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/com.ibm.mq.allclient-9.3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-cli-1.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20220320.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -3,9 +3,9 @@
     <output-path>$PROJECT_DIR$/out/artifacts/IBMMQTriggerBrowse_jar</output-path>
     <root id="archive" name="IBMMQTriggerBrowse.jar">
       <element id="module-output" name="IBMMQTriggerBrowse" />
-      <element id="extracted-dir" path="$USER_HOME$/Downloads/commons-cli-1.5.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/Downloads/json-20220320.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/Downloads/com.ibm.mq.allclient-9.3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/com.ibm.mq.allclient-9.3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-cli-1.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-20220320.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
